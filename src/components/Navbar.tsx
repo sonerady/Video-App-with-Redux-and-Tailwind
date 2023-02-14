@@ -39,6 +39,24 @@ const Navbar = () => {
             </div>
           </div>
         </form>
+        <div className="text-xl p-3 bg-zinc-900 rounded-full">
+          <TiMicrophone />
+        </div>
+      </div>
+      <div className="flex gap-5 items-center text-xl ">
+        <BsCameraVideo />
+        <IoAppsSharp />
+        <div className="relative">
+          <BsBell />
+          <span className="absolute bottom-2 left-2 text-xs bg-red-600 rounded-full px-1">
+            9+
+          </span>
+        </div>
+        <img
+          src="https://yt3.ggpht.com/yti/AHXOFjXJ62GXqPMwc2CT06vh4XxqehhCh0jNl2imYgdizA=s88-c-k-c0x00ffffff-no-rj-mo"
+          alt="Logo"
+          className="w-9 h-9 rounded-full"
+        />
       </div>
     </div>
   );
